@@ -12,6 +12,8 @@ const DashboardPage = async () => {
     redirect("/");
   }
 
+  console.log(session);
+
   return (
     <div>
       <h1>ダッシュボード</h1>
